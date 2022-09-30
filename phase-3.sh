@@ -10,5 +10,6 @@ echo "::1              localhost" >> /etc/hosts
 echo "127.0.1.1        archbox" >> /etc/hosts
 grub-install /dev/sda
 grub-mkconfig -o /boot/grub/grub.cfg
+useradd -m -G wheel 
 echo :::
-echo "Now set the root password!"
+echo "Now set the root password, user password, and visudo thing!"
