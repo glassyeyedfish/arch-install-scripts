@@ -1,5 +1,5 @@
 timedatectl set-ntp true
-fdisk -l
+lsblk
 
 echo Now go partition the disk!
 echo fdisk /dev/sdX
